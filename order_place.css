@@ -1,0 +1,23 @@
+.Text {
+    margin-top: 250px;
+    margin-left: 420px;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.button {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.Button {
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}

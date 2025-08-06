@@ -1,0 +1,192 @@
+html,
+body {
+    font: Arial;
+}
+
+.heading {
+    color: rgb(65, 62, 62);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vw 0;
+    font-size: 1.2vw;
+    border-bottom: 1px solid #ddd
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.4vw;
+    border-top: 2px solid #000;
+    background-color: #f0f0f0;
+
+}
+
+.checkout-container {
+    position: fixed;
+    display: inline-block;
+    max-width: 300px;
+    max-height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: #ffffff;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    right: 5vw;
+}
+
+.eachProduct {
+    margin: 15px;
+}
+
+.amazonLogo {
+    height: 4vw;
+    width: 8vw;
+    display: inline-block;
+}
+
+.checkout {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-right: 6vw;
+}
+
+.head_ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.locked {
+    width: 2vw;
+    height: 2vw;
+}
+
+.shipping-container {
+    border: black;
+    display: inline-block;
+    max-width: 70vw;
+    margin-right: 0px;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.4);
+    border-radius: 1vw;
+    margin-right: 2vw;
+
+}
+
+.review {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    display: block;
+    margin-top: 3vw;
+    margin-left: 10.5vw;
+    margin-bottom: 2vw;
+}
+
+.whole-container {
+    margin-left: 10.5vw;
+    max-width: 70vw;
+    display: flex;
+}
+
+
+
+.imgOrder {
+    width: 7vw;
+    height: 7vw;
+    display: inline-block;
+    margin-right: 4v;
+}
+
+.noItemsP {
+    padding-bottom: 10px;
+
+}
+
+.nameOrder,
+.priceOrder {
+    display: inline-block;
+
+}
+
+.eachOrder {
+    display: block;
+    margin: 0.5vw
+}
+
+.order {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20vw;
+    margin-right: 0;
+
+}
+
+.eachProductOrder {
+    margin: 1vw 1vw;
+    border: 1px solid #ccc;
+    padding: 1vw;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5vw;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.productDetails {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.items,
+.shipping,
+.beforeTax,
+.tax,
+.total {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    max-width: max-content;
+    padding: 0;
+    padding-bottom: 1vw;
+}
+
+.total {
+    padding-top: 1vw;
+}
+
+
+.deliveryDate {
+    color: green;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder
+}
+
+.productName {
+    font: Arial;
+}
+
+.Checkout_button {
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button_div {
+    margin-top: 20px;
+    margin-left: 70px;
+}

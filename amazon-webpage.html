@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="amazon-webpage.css">
+</head>
+
+<body>
+    <div class="amazonLogoDiv">
+        <img src="amazon-logo.png" class="amazonLogo">
+        <div class="searchGroup">
+            <input class="Searchbar" type="text" placeholder="Search">
+            <button class="searchButtonclick">
+                <img src="vector-search-icon.jpg" class="searchButton">
+            </button>
+        </div>
+        <div class="cartContainer">
+            <button class="cartButton" onclick="goToPage();">
+                <img src="OIP.jpg" class="cartPic">
+            </button>
+            <span class="cartQuantity"></span>
+        </div>
+    </div>
+    <div class="product">
+        <img src="th.jpg" class="img">
+        <div class="name">
+            PUMA Men's 6 Pack Crew Socks
+        </div>
+        <div class="ovRating">
+            <img src="download.jpg" class="rating">
+            <div class="numRating">
+                87
+            </div>
+        </div>
+        <div class="price">
+            <strong>13.26$</strong>
+        </div>
+        <div>
+            <button class="addToCart socksPrice"
+                onclick="cartQuantityfun(); calcPrice(13.26); productN('PUMA socks')">Add to cart</button>
+        </div>
+    </div>
+    <div class="product">
+        <img src="th (1).jpg" class="img">
+        <div class="name">
+            WILSON NCAA Legend Basketballs - Size 5, Size 6 and Size 7
+        </div>
+        <div class="ovRating">
+            <img src="download.jpg" class="rating">
+            <div class="numRating">
+                1003
+            </div>
+        </div>
+        <div class="price">
+            <strong>28.79$</strong>
+        </div>
+        <div>
+            <button class="addToCart basketPrice"
+                onclick="cartQuantityfun(); calcPrice(28.79); productN('WILSON NCAA Legend Basketballs')">Add to
+                cart</button>
+        </div>
+    </div>
+    <div class="product">
+        <img src="th (2).jpg" class="img">
+        <div class="name">
+            Adidas Unisex Club Firm Multi Ground Sneaker
+        </div>
+        <div class="ovRating">
+            <img src="download.jpg" class="rating">
+            <div class="numRating">
+                105,703
+            </div>
+        </div>
+        <div class="price">
+            <strong>62.27$</strong>
+        </div>
+        <div>
+            <button class="addToCart cleatsPrice"
+                onclick="cartQuantityfun(); calcPrice(62.27); productN('Adidas cleats')">Add to cart</button>
+        </div>
+    </div>
+    <div class="product">
+        <img src="th (3).jpg" class="img">
+        <div class="name">
+            Reginary 40 Pieces 7 Inch Small Cones for Sports Football Bike Obstacle Training Cones Plastic
+        </div>
+        <div class="ovRating">
+            <img src="download.jpg" class="rating">
+            <div class="numRating">
+                690
+            </div>
+        </div>
+        <div class="price">
+            <strong>27.16$</strong>
+        </div>
+        <div>
+            <button class="addToCart conesPrice"
+                onclick="cartQuantityfun(); calcPrice(27.16); productN('Football cones plastic')">Add to cart</button>
+        </div>
+    </div>
+    <div class="product">
+        <img src="th (4).jpg" class="img">
+        <div class="name">
+            Owala FreeSip Insulated Stainless Steel Water Bottle with Straw for Sports, Travel, and School
+        </div>
+        <div class="ovRating">
+            <img src="download.jpg" class="rating">
+            <div class="numRating">
+                405
+            </div>
+        </div>
+        <div class="price">
+            <strong>39.98$</strong>
+        </div>
+        <div>
+            <button class="addToCart bottlePrice"
+                onclick="cartQuantityfun(); calcPrice(39.98); productN('Water Bottle')">Add to cart</button>
+        </div>
+    </div>
+    <script src="amazon-webpage.js"></script>
+</body>
+
+</html>
